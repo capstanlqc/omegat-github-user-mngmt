@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "omegat-github-admin"
+version = "0.1.0"
+description = ""
+authors = ["msoutopico <m.soutopico@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygithub = "^1.57"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
